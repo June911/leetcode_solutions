@@ -1,3 +1,17 @@
+"""
+Problem Description:
+1. A queue of N cars waiting at a filling station ==> A = [10, 2, 3, ...]
+2. 3 Fuel dispensers ==> X, Y, Z
+
+==> Find maximum waiting time for a car
+- If more than one dispenser have the required liters, choose the one labeled the smallest number
+- Tanking 1 litre ==> 1 second
+- Moving car ==> 0 second
+- if any car is unable to fill, return -1
+
+"""
+
+
 def solution(A, X, Y, Z):
     # write your code in Python 3.6
 
